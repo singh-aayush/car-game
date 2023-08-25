@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hide{
+    display: none;
+}
+/* body{
+    background-color: red;
+} */
+.car{
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ0poa4gcNhmJKjwnexiacyA1BdQoLj1CxvQ&usqp=CAU");
+    
+    background-size: cover;
+}
+
+.enemy{
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    background-image: url("https://s.clipartkey.com/mpngs/s/88-889682_car-doors-open-comments-door-open-car-icon.png");
+    
+    background-size: cover;
+}
+.gameArea{
+    background-color: black;
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    overflow: hidden;
+    left: 38%;
+}
+.line{
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left: 195px;
+    background-color: white;
+}
+.score{
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+.startScreen{
+    text-align: center;
+    border: 1px solid red;
+    padding: 15px;
+    margin: auto;
+    width: 300px;
+
+}
+

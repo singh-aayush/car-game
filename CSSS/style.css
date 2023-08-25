@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  position: absolute;
+    display: flex;
+    /* z-index: 1; */
+    /* background-image: url("https://pin.it/8tVtGAi");
+    background-size: cover; */
+}
+.vedio-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.logo{
+    margin: 25px;
+    height: 107px;
+}
+.logo img{
+    width: 133px;
+height: 102px;
+border: 2px solid black;
+border-radius: 50%;
+}
+.heading{
+    height: 130px;
+}
+.heading h1{
+    width: 310px;
+    justify-content: flex-start;
+    align-items: start;
+    display: flex;
+    padding: 56px 0px 56px 20px;
+    font-size: 5ch;
+    color: black;
+  }
+.content{
+    display: flex;
+    height: 100vh;
+    width: 44%;
+
+}
+.content ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+.content ul li{
+    list-style: none;
+    padding: 30px 0px 30px 0px;
+}
+.content ul li a{
+     text-decoration: none;
+     /* font-size: 10ch;
+     border: 2px solid black;
+     border-radius: 58px;
+     padding: 16px 90px 15px 90px; */
+}
+.content ul li a button{
+    padding: 31px 120px;
+    font-size: 4ch;
+    border-radius: 39px;
+    color: red;
+background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    /* box-shadow: 0 19px 19px -8px rgb(238, 0, 0), 0 19px 100px -2px rgb(255, 95, 95); */
+
+  }
+  .content ul li a button:hover{
+      color: black;
+      font-weight: lighter;
+   
+  }
+.main{
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Geometric-Simple-Background-Image.jpg");
+    background-size: cover;
+    color: blue;
+}
+
+  .main h1{
+    padding:  68px;
+    font-size: 6ch;
+
+  }
+  .main h3{
+    margin: 15px;
+    padding: opx 200px;
+    width: 1600.5px;
+    height: 25.25px;
+    padding-left: 149px;
+    font-size: 4ch;
+  }
+  .main p{
+    padding-left: 219px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 25px;
+    font: italic;
+    font-family: 'Oswald', sans-serif;
+  }
+  .main img{
+    padding-left: 860px;
+    width: 100px;
+  }
+footer{
+  font-size: 23px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+.main2{
+  color: white;
+  background-image: url("https://images3.alphacoders.com/853/thumb-1920-85305.jpg");
+  background-size: cover;
+}
+.main2 h1{
+  padding: 40px 80px 10px 202px;
+}
+
+.main2 pre{
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Heebo', sans-serif;
+  font: 6ch;
+  padding: 10px 80px 10px 250px;
+}
+.main2 pre img{
+  margin-top: 20px;
+margin-left: 168px;
+}
+.main2 h2{
+  margin-left: 268px;
+}
+.back button{
+  margin-top: 10px;
+margin-left: 1230px;
+margin-bottom: 60px;
+padding: 20px;
+background-color: white;
+border: 2px solid black;
+border-radius: 29px;
+font-weight: bolder;
+color: blue;
+/* text-decoration: none; */
+}
+.back button:hover{
+  color: red;
+  font-weight: lighter;
+}
+.back2{
+  padding: 50px;
+}
+.back2 button2{
+  margin-top: 10px;
+margin-left: 1230px;
+margin-bottom: 30px;
+padding: 20px;
+background-color: white;
+border: 2px solid black;
+border-radius: 29px;
+font-weight: bolder;
+color: blue;
+/* text-decoration: none; */
+
+}
+.back2 button2:hover{
+  color: red;
+  font-weight: lighter;
+}
